@@ -24,6 +24,6 @@ NOTEABLE METHODS :
 4. <b>public void addAndDisplayWithTag(View view, int viewTag)</b> : <br />
    adds and display the view as soon as after adding
 
-![Alt text](../screenshots/loading.png?raw=true "Loading View")
-![Alt text](../screenshots/exception.png?raw=true "Exception View")
-![Alt text](../screenshots/success.png?raw=true "Success View")
+![Alt text](/screenshots/loading.png?raw=true "Loading View")
+![Alt text](/screenshots/exception.png?raw=true "Exception View")
+![Alt text](/screenshots/success.png?raw=true "Success View")
