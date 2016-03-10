@@ -101,6 +101,11 @@ public class AdvanceViewSwitcher {
         addViewWithTag(LayoutInflater.from(context).inflate(viewId, null), viewTag);
     }
 
+    /**
+     * displays view associated with the provided viewTag.
+     * if not found, returns
+     * @param viewTag
+     */
     public void displayViewWithTag(int viewTag) {
         for (Cloner cloner : viewsList) {
             if (cloner.getTag() == viewTag) {
