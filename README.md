@@ -1,8 +1,8 @@
-# AdvanceViewSwitcherDemo
+# AdvanceViewSwitcher
 
-An example implemention of AdvanceViewSwitcher.
+An example implementation of AdvanceViewSwitcher.
 
-This library allows adding different views, identified by their unigus tags, and easy management between switching them.
+This library allows adding different views, identified by their unique tags, and easy management between switching them.
 There is <b>NO LIMIT</b> in number of views that can be added/handled.
 
 <br />
@@ -24,4 +24,6 @@ NOTEABLE METHODS :
 4. <b>public void addAndDisplayWithTag(View view, int viewTag)</b> : <br />
    adds and display the view as soon as after adding
 
-
+![Alt text](../screenshots/loading.png?raw=true "Loading View")
+![Alt text](../screenshots/exception.png?raw=true "Exception View")
+![Alt text](../screenshots/success.png?raw=true "Success View")
