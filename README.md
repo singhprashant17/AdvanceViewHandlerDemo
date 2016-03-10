@@ -25,9 +25,9 @@ NOTEABLE METHODS :
    adds and display the view as soon as after adding
 
 <br /><br />
-<b>View while data is downloading</b>
+<b>View while data is downloading</b><br />
 ![Alt text](/screenshots/loading.png?raw=true "Loading View")<br /><br />
-<b>View when exception occurs</b>
+<b>View when exception occurs</b><br />
 ![Alt text](/screenshots/exception.png?raw=true "Exception View")<br /><br />
-<b>View when success</b>
+<b>View when success</b><br />
 ![Alt text](/screenshots/success.png?raw=true "Success View")
