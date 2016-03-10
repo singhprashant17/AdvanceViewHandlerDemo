@@ -25,6 +25,11 @@ NOTEABLE METHODS :
    adds and display the view as soon as after adding
 
 <br /><br />
+
+<b>Features loved to be added</b>
+1. Animation support when switching between views
+
+<br /><br />
 <b>View while data is downloading</b><br />
 ![Alt text](/screenshots/loading.png?raw=true "Loading View")<br /><br />
 <b>View when exception occurs</b><br />
