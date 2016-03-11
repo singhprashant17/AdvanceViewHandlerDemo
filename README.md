@@ -25,6 +25,7 @@ NOTEABLE METHODS :
    adds and display the view as soon as after adding
 
 <br /><br />
+<b>Screenshots</b><br/>
 <b>View while data is downloading</b><br />
 ![Alt text](/screenshots/loading.png?raw=true "Loading View")<br /><br />
 <b>View when exception occurs</b><br />
