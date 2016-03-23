@@ -26,9 +26,15 @@ NOTEABLE METHODS :
 
 <br /><br />
 <b>Screenshots</b><br/>
+<br /><br />
 <b>View while data is downloading</b><br />
 ![Alt text](/screenshots/loading.png?raw=true "Loading View")<br /><br />
 <b>View when exception occurs</b><br />
 ![Alt text](/screenshots/exception.png?raw=true "Exception View")<br /><br />
 <b>View when success</b><br />
 ![Alt text](/screenshots/success.png?raw=true "Success View")
+
+
+<b>Features loved to be added</b>
+1. Animation support when switching between views
+
