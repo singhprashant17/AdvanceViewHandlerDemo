@@ -20,7 +20,7 @@ public class MyFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle
             savedInstanceState) {
-        view = inflater.inflate(R.layout.activity_main, container, false);
+        view = inflater.inflate(R.layout.content_main, container, false);
         advanceViewSwitcher = new AdvanceViewSwitcher(getContext(), view.findViewById(R.id.txt));
         return view;
     }
@@ -29,7 +29,7 @@ public class MyFragment extends Fragment {
     public void onStart() {
         super.onStart();
         advanceViewSwitcher.addViewWithTag(getExceptionView(), TAG_EXCEPTION_VIEW);
-        advanceViewSwitcher.addAndDisplayWithTag(getLoadingView(), TAG_LOADING_VIEW);
+        advanceViewSwitcher.addAndDisplayWithTag(R.layout.loader_layout, TAG_LOADING_VIEW);
 
         new Handler().postDelayed(new Runnable() {
             @Override

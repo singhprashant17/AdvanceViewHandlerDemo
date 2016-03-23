@@ -59,8 +59,7 @@ public class AdvanceViewSwitcher {
         for (int i = 0; i < superView.getChildCount(); i++) {
             if (superView.getChildAt(i).equals(mainView)) {
                 superView.removeView(mainView);
-                superView.addView(viewFlipper, i, new ViewGroup.LayoutParams(ViewGroup
-                        .LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+                superView.addView(viewFlipper, i, mainView.getLayoutParams());
                 break;
             }
         }
@@ -98,12 +97,13 @@ public class AdvanceViewSwitcher {
     }
 
     public void addViewWithTag(int viewId, int viewTag) {
-        addViewWithTag(LayoutInflater.from(context).inflate(viewId, null), viewTag);
+        addViewWithTag(LayoutInflater.from(context).inflate(viewId, viewFlipper, false), viewTag);
     }
 
     /**
      * displays view associated with the provided viewTag.
      * if not found, returns
+     *
      * @param viewTag
      */
     public void displayViewWithTag(int viewTag) {
@@ -135,6 +135,11 @@ public class AdvanceViewSwitcher {
      */
     public void addAndDisplayWithTag(View view, int viewTag) {
         addViewWithTag(view, viewTag);
+        displayViewWithTag(viewTag);
+    }
+
+    public void addAndDisplayWithTag(int viewId, int viewTag) {
+        addViewWithTag(viewId, viewTag);
         displayViewWithTag(viewTag);
     }
 
