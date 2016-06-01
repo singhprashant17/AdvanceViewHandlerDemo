@@ -2,8 +2,9 @@
 
 An example implementation of AdvanceViewSwitcher.
 
-This library allows adding different views, identified by their unique tags, and easy management between switching them.
+This library allows adding different views at Runtime, identified by their unique tags, and easy management between switching them.
 There is <b>NO LIMIT</b> in number of views that can be added/handled.
+Respects all layouts: LinearLayout, RelativeLayout, FrameLayout
 
 <br />
 Works seamlessly with both Activity and Fragment.<br />
